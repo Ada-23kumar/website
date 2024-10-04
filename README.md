@@ -2,6 +2,10 @@
 A portfolio where whatever Adarsh has done till now
 
 
+<hr>
+
+
+<h3>HOW TO USE</h3>
 
 ## License
 
