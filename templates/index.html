@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdArSh KuMaR</title>
+
+    <!-- from awseom cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{url_for('static', filename='images/logo.png')}}" type="image/x-icon">
+
+
+<!-- costom js file  -->
+
+
 </head>
 <body>
-    
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="{{url_for('static', filename='images/logo1.png')}}" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="/index">Home</a>
+            <a href="#about">About</a>
+            <a href="#Project">Project</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+    </header>
+
+
+
+    <script type="text/javascript" src="{{url_for('static', filename='js/script.js')}}"></script>
 </body>
 </html>
